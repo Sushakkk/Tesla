@@ -1,0 +1,29 @@
+.breadcrumbs {
+    padding-top: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+    font-family: noto-serif; /* Шрифт для текста */
+    font-size: 18px; /* Размер текста */
+    color: var(--main_color); /* Основной цвет текста */
+    background-color: #e4e4e4; /* Полупрозрачный фон для лучшей читаемости */
+    border-radius: 5px; /* Скругленные углы */
+    
+}
+
+.breadcrumbs a {
+    text-decoration: none; /* Убираем подчеркивание */
+    color: var(--main_color); /* Цвет ссылок */
+    margin: 0 10px; /* Отступы между элементами */
+    transition: color 0.3s ease; /* Плавный переход цвета */
+}
+
+.breadcrumbs a:hover {
+    color: #007BFF; /* Яркий синий цвет при наведении */
+}
+
+.breadcrumbs span {
+    margin: 0 5px; /* Отступы между текстом и разделителями */
+    color: #999; /* Цвет разделителей */
+}
